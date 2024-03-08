@@ -1,102 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <meta
-    name="description"
-    content="YouTube Thumbnail, Video And Audio Downloader Website"
-  />
-  <meta
-    name="keywords"
-    content="YouTube Thumbnail Downloader, YouTube Video Downloader, YouTube Audio Downloader"
-  />
-  <meta name="author" content="RSM Developer" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- title -->
-  <title>YDM- Youtube Download Manager</title>
- <style>
-    /* ========= reset ================ */
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+      name="description"
+      content="YouTube Thumbnail, Video And Audio Downloader Website"
+    />
+    <meta
+      name="keywords"
+      content="YouTube Thumbnail Downloader, YouTube Video Downloader, YouTube Audio Downloader"
+    />
+    <meta name="author" content="RSM Developer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title -->
+    <title>YDM- Youtube Download Manager</title>
+    <style>
+      /* ========= reset ================ */
+      *,
+      *::after,
+      *::before {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
-:root {
-  --bg-color: #fff;
-  --text-color: #040c16;
-  --h1-color: #041d34;
-}
+      :root {
+        --bg-color: #fff;
+        --text-color: #040c16;
+        --h1-color: #041d34;
+      }
 
-body {
-  background-color: var(--bg-color);
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-size: 16px;
-}
+      body {
+        background-color: var(--bg-color);
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+      }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
 
-a {
-  text-decoration: none;
-}
-li {
-  list-style: none;
-}
-.main-menu{
-    padding: 20px;
-}
-.main-menu ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}
+      a {
+        text-decoration: none;
+      }
+      li {
+        list-style: none;
+      }
+      .main-menu {
+        padding: 20px;
+      }
+      .main-menu ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+      }
 
-.main-menu ul li a {
-  color: var(--h1-color);
-  font-size: 25px;
-  font-weight: 700;
-  text-transform: capitalize;
-  padding: 10px 15px;
-}
+      .main-menu ul li a {
+        color: var(--h1-color);
+        font-size: 25px;
+        font-weight: 700;
+        text-transform: capitalize;
+        padding: 10px 15px;
+      }
 
-.main-menu ul li a:hover {
-  color: var(--bg-color);
-  background-color: var(--h1-color);
-  border-radius: 10px;
-}
+      .main-menu ul li a:hover {
+        color: var(--bg-color);
+        background-color: var(--h1-color);
+        border-radius: 10px;
+      }
 
-.main-menu ul i {
-  font-size: 40px;
-  color: red;
-  padding: 10px 15px;
-}
+      .main-menu ul i {
+        font-size: 40px;
+        color: red;
+        padding: 10px 15px;
+      }
 
-.main-menu ul i:hover {
-  color: var(--bg-color);
-  background-color: var(--h1-color);
-  border-radius: 10px;
-}
-/* ============== reset end ================= */
- </style>
-</head>
-<body>
- <div class="container">
-    <div class="main-menu">
+      .main-menu ul i:hover {
+        color: var(--bg-color);
+        background-color: var(--h1-color);
+        border-radius: 10px;
+      }
+
+      @media screen and (max-width: 769px) {
+        .main-menu ul {
+          flex-direction: column;
+        }
+      }
+      /* ============== reset end ================= */
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-menu">
         <ul>
           <li><a href="/">home</a></li>
           <li><a href="/thum">thumbnail</a></li>
           <li><a href="/video">video</a></li>
           <li><a href="/audio">audio</a></li>
+        </ul>
         <!-- ul end -->
       </div>
- </div>
-    
-</body>
+    </div>
+  </body>
 </html>
